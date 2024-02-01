@@ -1,28 +1,16 @@
-import logo from './logo.svg';
+import githublogo from './components/assets/githublogo.png'
 import './App.css';
-
-
+import LoginForm from './components/LoginForm/LoginForm';
 
 function App() {
-
-
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='github-logo'>
+        <img src={githublogo} />
+      </div>
+      <div className='sign-in'>Sign in to GitHub</div>
+      <br></br>
+        <LoginForm />
     </div>
   );
 }
