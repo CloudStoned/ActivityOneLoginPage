@@ -2,9 +2,26 @@
   text-align: center;
 }
 
+.sign-in{
+  color: #E6EDF3;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.github-logo{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.github-logo img {
+  width: 47.99px;  /* Set the desired width */
+  height: auto;    /* Maintain the aspect ratio */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +32,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
