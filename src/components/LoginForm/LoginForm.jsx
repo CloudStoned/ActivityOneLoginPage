@@ -11,7 +11,10 @@ const LoginForm = () => {
                     <input type="text"  required></input>
                 </div>
                 <div className="input-box">
-                    <label>Password <a href="$">Forgot Password?</a> </label>
+                    <div className="forgot-password"> 
+                        <label>Password</label>
+                        <a href="#">Forgot password?</a>    
+                    </div>
                     <br></br>
                     <input type="password" required></input>
                 </div>
