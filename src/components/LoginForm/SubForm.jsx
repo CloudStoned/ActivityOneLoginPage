@@ -5,7 +5,7 @@ import './SubForm.css';
 const SubForm = () => {
     return(
         <div className="subform-wrapper">
-            <div className="sign-in-with-a-passkey"> </div>
+            <div className="sign-in-with-a-passkey"> Sign in with a passkey </div>
         </div>
     );
 };
