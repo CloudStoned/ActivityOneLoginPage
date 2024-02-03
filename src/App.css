@@ -1,12 +1,20 @@
-.App {
-  text-align: center;
+.forms-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+.container{
+ margin: auto;
 }
 
 .sign-in{
+  font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
   color: #E6EDF3;
   text-align: center;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: lighter;
 }
 
 .App-logo {

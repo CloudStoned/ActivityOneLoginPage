@@ -17,7 +17,10 @@
 .sign-in-with-a-passkey a{
     text-decoration: none;
     color: #2F81F7;
+}
 
+.sign-in-with-a-passkey :hover{
+    text-decoration: underline;
 }
 
 .sign-in-new-to {
@@ -29,4 +32,8 @@
 .create-an-account a{
     color: #2F81F7;
     text-decoration: none;
+}
+
+.create-an-account :hover{
+    text-decoration: underline;
 }
