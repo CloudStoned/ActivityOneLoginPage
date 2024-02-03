@@ -6,8 +6,7 @@
     color: #E6EDF3;
     font-size: 14px;
     border-radius: 5px;
-    padding: 20px; /* Add padding for better spacing */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow for depth */
+    padding: 20px; 
   }
   
   .input-box {
@@ -19,11 +18,12 @@
   }
   
   .input-box input {
+    color: white;
     width: 100%; /* Take up the full width of the parent container */
     height: 30px;
-    background-color: #161B22;
+    background-color: #0d1117;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #484f58;
     padding: 5px; /* Add padding for better input appearance */
   }
   
