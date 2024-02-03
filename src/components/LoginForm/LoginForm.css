@@ -30,7 +30,7 @@
   button {
     width: 100%; /* Make the button full-width */
     margin-top: 10px;
-    padding: 10px; /* Add padding for better button appearance */
+    padding: 6px; /* Add padding for better button appearance */
     background-color: #238636; /* Change the button color to a contrasting color */
     color: white;
     border: none;

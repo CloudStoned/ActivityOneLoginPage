@@ -8,3 +8,25 @@
     border-radius: 5px;
     padding: 20px; 
 }
+
+.sign-in-with-a-passkey{
+    text-align: center;
+    font-weight: 500;
+}
+
+.sign-in-with-a-passkey a{
+    text-decoration: none;
+    color: #2F81F7;
+
+}
+
+.sign-in-new-to {
+    margin-top: 5px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.create-an-account a{
+    color: #2F81F7;
+    text-decoration: none;
+}
